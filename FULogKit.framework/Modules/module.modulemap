@@ -1,0 +1,6 @@
+framework module FULogKit {
+  umbrella header "FULogKit.h"
+  export *
+
+  module * { export * }
+}

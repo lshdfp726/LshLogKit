@@ -1,0 +1,18 @@
+PODS:
+  - FULogKit-dev (1.0.0):
+    - FULogKit-dev/FULogKit (= 1.0.0)
+  - FULogKit-dev/FULogKit (1.0.0)
+
+DEPENDENCIES:
+  - FULogKit-dev (from `./`)
+
+EXTERNAL SOURCES:
+  FULogKit-dev:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  FULogKit-dev: 14027839fc0c4e3d2d162c1ae6f46b487660f4f5
+
+PODFILE CHECKSUM: c9ef87c9988b826fe15a86f87a0f9221a9af5f5d
+
+COCOAPODS: 1.13.0

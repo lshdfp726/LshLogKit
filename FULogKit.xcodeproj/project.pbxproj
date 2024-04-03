@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411542922BABCD4100823E4B /* FULogKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 411542912BABCD4100823E4B /* FULogKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4115429A2BABCE2400823E4B /* FULogKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542982BABCD8C00823E4B /* FULogKit.m */; };
+		411542A12BABD19000823E4B /* FULogInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4115429F2BABD19000823E4B /* FULogInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411542A22BABD19000823E4B /* FULogInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542A02BABD19000823E4B /* FULogInfo.m */; };
+		411542AB2BABD4AB00823E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542AA2BABD4AB00823E4B /* AppDelegate.m */; };
+		411542AE2BABD4AB00823E4B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542AD2BABD4AB00823E4B /* SceneDelegate.m */; };
+		411542B12BABD4AB00823E4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542B02BABD4AB00823E4B /* ViewController.m */; };
+		411542B42BABD4AB00823E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411542B22BABD4AB00823E4B /* Main.storyboard */; };
+		411542B62BABD4AD00823E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411542B52BABD4AD00823E4B /* Assets.xcassets */; };
+		411542B92BABD4AD00823E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411542B72BABD4AD00823E4B /* LaunchScreen.storyboard */; };
+		411542BC2BABD4AD00823E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542BB2BABD4AD00823E4B /* main.m */; };
+		411542C62BABD4AE00823E4B /* FULogKitAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542C52BABD4AE00823E4B /* FULogKitAppTests.m */; };
+		411542D02BABD4AE00823E4B /* FULogKitAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542CF2BABD4AE00823E4B /* FULogKitAppUITests.m */; };
+		411542D22BABD4AE00823E4B /* FULogKitAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542D12BABD4AE00823E4B /* FULogKitAppUITestsLaunchTests.m */; };
+		411542DE2BABDFBB00823E4B /* FULogKitUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 411542DC2BABDFBB00823E4B /* FULogKitUtil.h */; };
+		411542DF2BABDFBB00823E4B /* FULogKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542DD2BABDFBB00823E4B /* FULogKitUtil.m */; };
+		411542E52BAC18B700823E4B /* FUNetWorkReachhabilityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 411542E32BAC18B700823E4B /* FUNetWorkReachhabilityUtil.h */; };
+		411542E62BAC18B700823E4B /* FUNetWorkReachhabilityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542E42BAC18B700823E4B /* FUNetWorkReachhabilityUtil.m */; };
+		411542E92BAC394300823E4B /* FUMMapUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 411542E72BAC394300823E4B /* FUMMapUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411542EA2BAC394300823E4B /* FUMMapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 411542E82BAC394300823E4B /* FUMMapUtil.m */; };
+		4152E4502BBA521B0021899B /* FUServerLogUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152E44E2BBA521B0021899B /* FUServerLogUtil.h */; };
+		4152E4512BBA521B0021899B /* FUServerLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4152E44F2BBA521B0021899B /* FUServerLogUtil.m */; };
+		4152E4542BBA91BE0021899B /* FULogPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152E4522BBA91BE0021899B /* FULogPool.h */; };
+		4152E4552BBA91BE0021899B /* FULogPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4152E4532BBA91BE0021899B /* FULogPool.m */; };
+		4152E4582BBBE4B70021899B /* FUExceptionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152E4562BBBE4B70021899B /* FUExceptionUtil.h */; };
+		4152E4592BBBE4B70021899B /* FUExceptionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4152E4572BBBE4B70021899B /* FUExceptionUtil.m */; };
+		4152E45C2BBCF60E0021899B /* FULogKitZombie.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152E45A2BBCF60E0021899B /* FULogKitZombie.h */; };
+		4152E45D2BBCF60E0021899B /* FULogKitZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4152E45B2BBCF60E0021899B /* FULogKitZombie.m */; };
+		4152E45F2BBD294D0021899B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4152E45E2BBD01A00021899B /* PrivacyInfo.xcprivacy */; };
+		936BC5EE897E403BAE4D3D3E /* Pods_FULogKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757CA7C48BBDC05269227A35 /* Pods_FULogKitApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		411542C22BABD4AE00823E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411542852BABCD4000823E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411542A62BABD4AB00823E4B;
+			remoteInfo = FULogKitApp;
+		};
+		411542CC2BABD4AE00823E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411542852BABCD4000823E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411542A62BABD4AB00823E4B;
+			remoteInfo = FULogKitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103DC25042729040CD009057 /* Pods-FULogKitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FULogKitApp.debug.xcconfig"; path = "Target Support Files/Pods-FULogKitApp/Pods-FULogKitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4115428E2BABCD4100823E4B /* FULogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FULogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		411542912BABCD4100823E4B /* FULogKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FULogKit.h; sourceTree = "<group>"; };
+		411542982BABCD8C00823E4B /* FULogKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogKit.m; sourceTree = "<group>"; };
+		4115429F2BABD19000823E4B /* FULogInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FULogInfo.h; sourceTree = "<group>"; };
+		411542A02BABD19000823E4B /* FULogInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogInfo.m; sourceTree = "<group>"; };
+		411542A72BABD4AB00823E4B /* FULogKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FULogKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		411542A92BABD4AB00823E4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		411542AA2BABD4AB00823E4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		411542AC2BABD4AB00823E4B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		411542AD2BABD4AB00823E4B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		411542AF2BABD4AB00823E4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		411542B02BABD4AB00823E4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		411542B32BABD4AB00823E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		411542B52BABD4AD00823E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		411542B82BABD4AD00823E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		411542BA2BABD4AD00823E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411542BB2BABD4AD00823E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		411542C12BABD4AE00823E4B /* FULogKitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FULogKitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411542C52BABD4AE00823E4B /* FULogKitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogKitAppTests.m; sourceTree = "<group>"; };
+		411542CB2BABD4AE00823E4B /* FULogKitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FULogKitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411542CF2BABD4AE00823E4B /* FULogKitAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogKitAppUITests.m; sourceTree = "<group>"; };
+		411542D12BABD4AE00823E4B /* FULogKitAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogKitAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		411542DC2BABDFBB00823E4B /* FULogKitUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FULogKitUtil.h; sourceTree = "<group>"; };
+		411542DD2BABDFBB00823E4B /* FULogKitUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogKitUtil.m; sourceTree = "<group>"; };
+		411542E32BAC18B700823E4B /* FUNetWorkReachhabilityUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUNetWorkReachhabilityUtil.h; sourceTree = "<group>"; };
+		411542E42BAC18B700823E4B /* FUNetWorkReachhabilityUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUNetWorkReachhabilityUtil.m; sourceTree = "<group>"; };
+		411542E72BAC394300823E4B /* FUMMapUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUMMapUtil.h; sourceTree = "<group>"; };
+		411542E82BAC394300823E4B /* FUMMapUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUMMapUtil.m; sourceTree = "<group>"; };
+		4152E44E2BBA521B0021899B /* FUServerLogUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUServerLogUtil.h; sourceTree = "<group>"; };
+		4152E44F2BBA521B0021899B /* FUServerLogUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUServerLogUtil.m; sourceTree = "<group>"; };
+		4152E4522BBA91BE0021899B /* FULogPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FULogPool.h; sourceTree = "<group>"; };
+		4152E4532BBA91BE0021899B /* FULogPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogPool.m; sourceTree = "<group>"; };
+		4152E4562BBBE4B70021899B /* FUExceptionUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUExceptionUtil.h; sourceTree = "<group>"; };
+		4152E4572BBBE4B70021899B /* FUExceptionUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUExceptionUtil.m; sourceTree = "<group>"; };
+		4152E45A2BBCF60E0021899B /* FULogKitZombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FULogKitZombie.h; sourceTree = "<group>"; };
+		4152E45B2BBCF60E0021899B /* FULogKitZombie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogKitZombie.m; sourceTree = "<group>"; };
+		4152E45E2BBD01A00021899B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		757CA7C48BBDC05269227A35 /* Pods_FULogKitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FULogKitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0161C66D913C32689784A1 /* Pods-FULogKitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FULogKitApp.release.xcconfig"; path = "Target Support Files/Pods-FULogKitApp/Pods-FULogKitApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4115428B2BABCD4100823E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542A42BABD4AB00823E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936BC5EE897E403BAE4D3D3E /* Pods_FULogKitApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542BE2BABD4AE00823E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542C82BABD4AE00823E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046E4735FB816A5AD33A0DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				103DC25042729040CD009057 /* Pods-FULogKitApp.debug.xcconfig */,
+				DC0161C66D913C32689784A1 /* Pods-FULogKitApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		285CF673FC47820A6EEDADCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757CA7C48BBDC05269227A35 /* Pods_FULogKitApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		411542842BABCD4000823E4B = {
+			isa = PBXGroup;
+			children = (
+				411542902BABCD4100823E4B /* FULogKit */,
+				411542A82BABD4AB00823E4B /* FULogKitApp */,
+				411542C42BABD4AE00823E4B /* FULogKitAppTests */,
+				411542CE2BABD4AE00823E4B /* FULogKitAppUITests */,
+				4115428F2BABCD4100823E4B /* Products */,
+				046E4735FB816A5AD33A0DCD /* Pods */,
+				285CF673FC47820A6EEDADCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4115428F2BABCD4100823E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4115428E2BABCD4100823E4B /* FULogKit.framework */,
+				411542A72BABD4AB00823E4B /* FULogKitApp.app */,
+				411542C12BABD4AE00823E4B /* FULogKitAppTests.xctest */,
+				411542CB2BABD4AE00823E4B /* FULogKitAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411542902BABCD4100823E4B /* FULogKit */ = {
+			isa = PBXGroup;
+			children = (
+				411542E22BAC188600823E4B /* util */,
+				411542912BABCD4100823E4B /* FULogKit.h */,
+				411542982BABCD8C00823E4B /* FULogKit.m */,
+				4115429F2BABD19000823E4B /* FULogInfo.h */,
+				411542A02BABD19000823E4B /* FULogInfo.m */,
+				4152E45E2BBD01A00021899B /* PrivacyInfo.xcprivacy */,
+			);
+			path = FULogKit;
+			sourceTree = "<group>";
+		};
+		411542A82BABD4AB00823E4B /* FULogKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				411542A92BABD4AB00823E4B /* AppDelegate.h */,
+				411542AA2BABD4AB00823E4B /* AppDelegate.m */,
+				411542AC2BABD4AB00823E4B /* SceneDelegate.h */,
+				411542AD2BABD4AB00823E4B /* SceneDelegate.m */,
+				411542AF2BABD4AB00823E4B /* ViewController.h */,
+				411542B02BABD4AB00823E4B /* ViewController.m */,
+				411542B22BABD4AB00823E4B /* Main.storyboard */,
+				411542B52BABD4AD00823E4B /* Assets.xcassets */,
+				411542B72BABD4AD00823E4B /* LaunchScreen.storyboard */,
+				411542BA2BABD4AD00823E4B /* Info.plist */,
+				411542BB2BABD4AD00823E4B /* main.m */,
+			);
+			path = FULogKitApp;
+			sourceTree = "<group>";
+		};
+		411542C42BABD4AE00823E4B /* FULogKitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				411542C52BABD4AE00823E4B /* FULogKitAppTests.m */,
+			);
+			path = FULogKitAppTests;
+			sourceTree = "<group>";
+		};
+		411542CE2BABD4AE00823E4B /* FULogKitAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				411542CF2BABD4AE00823E4B /* FULogKitAppUITests.m */,
+				411542D12BABD4AE00823E4B /* FULogKitAppUITestsLaunchTests.m */,
+			);
+			path = FULogKitAppUITests;
+			sourceTree = "<group>";
+		};
+		411542E22BAC188600823E4B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				411542DC2BABDFBB00823E4B /* FULogKitUtil.h */,
+				411542DD2BABDFBB00823E4B /* FULogKitUtil.m */,
+				411542E32BAC18B700823E4B /* FUNetWorkReachhabilityUtil.h */,
+				411542E42BAC18B700823E4B /* FUNetWorkReachhabilityUtil.m */,
+				411542E72BAC394300823E4B /* FUMMapUtil.h */,
+				411542E82BAC394300823E4B /* FUMMapUtil.m */,
+				4152E44E2BBA521B0021899B /* FUServerLogUtil.h */,
+				4152E44F2BBA521B0021899B /* FUServerLogUtil.m */,
+				4152E4522BBA91BE0021899B /* FULogPool.h */,
+				4152E4532BBA91BE0021899B /* FULogPool.m */,
+				4152E4562BBBE4B70021899B /* FUExceptionUtil.h */,
+				4152E4572BBBE4B70021899B /* FUExceptionUtil.m */,
+				4152E45A2BBCF60E0021899B /* FULogKitZombie.h */,
+				4152E45B2BBCF60E0021899B /* FULogKitZombie.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		411542892BABCD4100823E4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411542DE2BABDFBB00823E4B /* FULogKitUtil.h in Headers */,
+				411542A12BABD19000823E4B /* FULogInfo.h in Headers */,
+				4152E45C2BBCF60E0021899B /* FULogKitZombie.h in Headers */,
+				411542E52BAC18B700823E4B /* FUNetWorkReachhabilityUtil.h in Headers */,
+				4152E4542BBA91BE0021899B /* FULogPool.h in Headers */,
+				4152E4502BBA521B0021899B /* FUServerLogUtil.h in Headers */,
+				411542922BABCD4100823E4B /* FULogKit.h in Headers */,
+				411542E92BAC394300823E4B /* FUMMapUtil.h in Headers */,
+				4152E4582BBBE4B70021899B /* FUExceptionUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4115428D2BABCD4100823E4B /* FULogKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411542952BABCD4100823E4B /* Build configuration list for PBXNativeTarget "FULogKit" */;
+			buildPhases = (
+				411542892BABCD4100823E4B /* Headers */,
+				4115428A2BABCD4100823E4B /* Sources */,
+				4115428B2BABCD4100823E4B /* Frameworks */,
+				4115428C2BABCD4100823E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FULogKit;
+			productName = FULogKit;
+			productReference = 4115428E2BABCD4100823E4B /* FULogKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		411542A62BABD4AB00823E4B /* FULogKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411542D32BABD4AE00823E4B /* Build configuration list for PBXNativeTarget "FULogKitApp" */;
+			buildPhases = (
+				60F42F12374A945BB40F1AF4 /* [CP] Check Pods Manifest.lock */,
+				411542A32BABD4AB00823E4B /* Sources */,
+				411542A42BABD4AB00823E4B /* Frameworks */,
+				411542A52BABD4AB00823E4B /* Resources */,
+				E24FDFCD04A1B568418E2F66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FULogKitApp;
+			productName = FULogKitApp;
+			productReference = 411542A72BABD4AB00823E4B /* FULogKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		411542C02BABD4AE00823E4B /* FULogKitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411542D62BABD4AE00823E4B /* Build configuration list for PBXNativeTarget "FULogKitAppTests" */;
+			buildPhases = (
+				411542BD2BABD4AE00823E4B /* Sources */,
+				411542BE2BABD4AE00823E4B /* Frameworks */,
+				411542BF2BABD4AE00823E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411542C32BABD4AE00823E4B /* PBXTargetDependency */,
+			);
+			name = FULogKitAppTests;
+			productName = FULogKitAppTests;
+			productReference = 411542C12BABD4AE00823E4B /* FULogKitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		411542CA2BABD4AE00823E4B /* FULogKitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411542D92BABD4AE00823E4B /* Build configuration list for PBXNativeTarget "FULogKitAppUITests" */;
+			buildPhases = (
+				411542C72BABD4AE00823E4B /* Sources */,
+				411542C82BABD4AE00823E4B /* Frameworks */,
+				411542C92BABD4AE00823E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411542CD2BABD4AE00823E4B /* PBXTargetDependency */,
+			);
+			name = FULogKitAppUITests;
+			productName = FULogKitAppUITests;
+			productReference = 411542CB2BABD4AE00823E4B /* FULogKitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411542852BABCD4000823E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4115428D2BABCD4100823E4B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					411542A62BABD4AB00823E4B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					411542C02BABD4AE00823E4B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 411542A62BABD4AB00823E4B;
+					};
+					411542CA2BABD4AE00823E4B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 411542A62BABD4AB00823E4B;
+					};
+				};
+			};
+			buildConfigurationList = 411542882BABCD4000823E4B /* Build configuration list for PBXProject "FULogKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411542842BABCD4000823E4B;
+			productRefGroup = 4115428F2BABCD4100823E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4115428D2BABCD4100823E4B /* FULogKit */,
+				411542A62BABD4AB00823E4B /* FULogKitApp */,
+				411542C02BABD4AE00823E4B /* FULogKitAppTests */,
+				411542CA2BABD4AE00823E4B /* FULogKitAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4115428C2BABCD4100823E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4152E45F2BBD294D0021899B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542A52BABD4AB00823E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411542B92BABD4AD00823E4B /* LaunchScreen.storyboard in Resources */,
+				411542B62BABD4AD00823E4B /* Assets.xcassets in Resources */,
+				411542B42BABD4AB00823E4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542BF2BABD4AE00823E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542C92BABD4AE00823E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60F42F12374A945BB40F1AF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FULogKitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24FDFCD04A1B568418E2F66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FULogKitApp/Pods-FULogKitApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FULogKitApp/Pods-FULogKitApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FULogKitApp/Pods-FULogKitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4115428A2BABCD4100823E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4152E4552BBA91BE0021899B /* FULogPool.m in Sources */,
+				4152E4512BBA521B0021899B /* FUServerLogUtil.m in Sources */,
+				4115429A2BABCE2400823E4B /* FULogKit.m in Sources */,
+				411542DF2BABDFBB00823E4B /* FULogKitUtil.m in Sources */,
+				4152E4592BBBE4B70021899B /* FUExceptionUtil.m in Sources */,
+				411542A22BABD19000823E4B /* FULogInfo.m in Sources */,
+				4152E45D2BBCF60E0021899B /* FULogKitZombie.m in Sources */,
+				411542E62BAC18B700823E4B /* FUNetWorkReachhabilityUtil.m in Sources */,
+				411542EA2BAC394300823E4B /* FUMMapUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542A32BABD4AB00823E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411542B12BABD4AB00823E4B /* ViewController.m in Sources */,
+				411542AB2BABD4AB00823E4B /* AppDelegate.m in Sources */,
+				411542BC2BABD4AD00823E4B /* main.m in Sources */,
+				411542AE2BABD4AB00823E4B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542BD2BABD4AE00823E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411542C62BABD4AE00823E4B /* FULogKitAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411542C72BABD4AE00823E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411542D02BABD4AE00823E4B /* FULogKitAppUITests.m in Sources */,
+				411542D22BABD4AE00823E4B /* FULogKitAppUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		411542C32BABD4AE00823E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411542A62BABD4AB00823E4B /* FULogKitApp */;
+			targetProxy = 411542C22BABD4AE00823E4B /* PBXContainerItemProxy */;
+		};
+		411542CD2BABD4AE00823E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411542A62BABD4AB00823E4B /* FULogKitApp */;
+			targetProxy = 411542CC2BABD4AE00823E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		411542B22BABD4AB00823E4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411542B32BABD4AB00823E4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		411542B72BABD4AD00823E4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411542B82BABD4AD00823E4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		411542932BABCD4100823E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		411542942BABCD4100823E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		411542962BABCD4100823E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35A6KD62ZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceunity.FULogKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		411542972BABCD4100823E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35A6KD62ZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceunity.FULogKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		411542D42BABD4AE00823E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103DC25042729040CD009057 /* Pods-FULogKitApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35A6KD62ZJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FULogKitApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceunity.FULogKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		411542D52BABD4AE00823E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0161C66D913C32689784A1 /* Pods-FULogKitApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35A6KD62ZJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FULogKitApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceunity.FULogKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		411542D72BABD4AE00823E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35A6KD62ZJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceunity.FULogKitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FULogKitApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FULogKitApp";
+			};
+			name = Debug;
+		};
+		411542D82BABD4AE00823E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35A6KD62ZJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceunity.FULogKitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FULogKitApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FULogKitApp";
+			};
+			name = Release;
+		};
+		411542DA2BABD4AE00823E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35A6KD62ZJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceunity.FULogKitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FULogKitApp;
+			};
+			name = Debug;
+		};
+		411542DB2BABD4AE00823E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35A6KD62ZJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceunity.FULogKitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FULogKitApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411542882BABCD4000823E4B /* Build configuration list for PBXProject "FULogKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411542932BABCD4100823E4B /* Debug */,
+				411542942BABCD4100823E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411542952BABCD4100823E4B /* Build configuration list for PBXNativeTarget "FULogKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411542962BABCD4100823E4B /* Debug */,
+				411542972BABCD4100823E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411542D32BABD4AE00823E4B /* Build configuration list for PBXNativeTarget "FULogKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411542D42BABD4AE00823E4B /* Debug */,
+				411542D52BABD4AE00823E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411542D62BABD4AE00823E4B /* Build configuration list for PBXNativeTarget "FULogKitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411542D72BABD4AE00823E4B /* Debug */,
+				411542D82BABD4AE00823E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411542D92BABD4AE00823E4B /* Build configuration list for PBXNativeTarget "FULogKitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411542DA2BABD4AE00823E4B /* Debug */,
+				411542DB2BABD4AE00823E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411542852BABCD4000823E4B /* Project object */;
+}
