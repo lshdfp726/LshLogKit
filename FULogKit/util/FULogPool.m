@@ -15,6 +15,10 @@
 @end
 
 @implementation FULogPool
++ (void)load {
+    
+}
+
 - (instancetype)init {
     self = [super init];
     if (self) {

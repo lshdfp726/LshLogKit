@@ -33,9 +33,9 @@
 		4152E4552BBA91BE0021899B /* FULogPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4152E4532BBA91BE0021899B /* FULogPool.m */; };
 		4152E4582BBBE4B70021899B /* FUExceptionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152E4562BBBE4B70021899B /* FUExceptionUtil.h */; };
 		4152E4592BBBE4B70021899B /* FUExceptionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4152E4572BBBE4B70021899B /* FUExceptionUtil.m */; };
-		4152E45C2BBCF60E0021899B /* FULogKitZombie.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152E45A2BBCF60E0021899B /* FULogKitZombie.h */; };
-		4152E45D2BBCF60E0021899B /* FULogKitZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4152E45B2BBCF60E0021899B /* FULogKitZombie.m */; };
 		4152E45F2BBD294D0021899B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4152E45E2BBD01A00021899B /* PrivacyInfo.xcprivacy */; };
+		416243D42BC28327005AD863 /* NSObject+Zombie.h in Headers */ = {isa = PBXBuildFile; fileRef = 416243D22BC28327005AD863 /* NSObject+Zombie.h */; };
+		416243D52BC28327005AD863 /* NSObject+Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 416243D32BC28327005AD863 /* NSObject+Zombie.m */; };
 		936BC5EE897E403BAE4D3D3E /* Pods_FULogKitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757CA7C48BBDC05269227A35 /* Pods_FULogKitApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,9 +92,9 @@
 		4152E4532BBA91BE0021899B /* FULogPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogPool.m; sourceTree = "<group>"; };
 		4152E4562BBBE4B70021899B /* FUExceptionUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUExceptionUtil.h; sourceTree = "<group>"; };
 		4152E4572BBBE4B70021899B /* FUExceptionUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUExceptionUtil.m; sourceTree = "<group>"; };
-		4152E45A2BBCF60E0021899B /* FULogKitZombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FULogKitZombie.h; sourceTree = "<group>"; };
-		4152E45B2BBCF60E0021899B /* FULogKitZombie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FULogKitZombie.m; sourceTree = "<group>"; };
 		4152E45E2BBD01A00021899B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		416243D22BC28327005AD863 /* NSObject+Zombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Zombie.h"; sourceTree = "<group>"; };
+		416243D32BC28327005AD863 /* NSObject+Zombie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Zombie.m"; sourceTree = "<group>"; };
 		757CA7C48BBDC05269227A35 /* Pods_FULogKitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FULogKitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0161C66D913C32689784A1 /* Pods-FULogKitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FULogKitApp.release.xcconfig"; path = "Target Support Files/Pods-FULogKitApp/Pods-FULogKitApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -236,8 +236,8 @@
 				4152E4532BBA91BE0021899B /* FULogPool.m */,
 				4152E4562BBBE4B70021899B /* FUExceptionUtil.h */,
 				4152E4572BBBE4B70021899B /* FUExceptionUtil.m */,
-				4152E45A2BBCF60E0021899B /* FULogKitZombie.h */,
-				4152E45B2BBCF60E0021899B /* FULogKitZombie.m */,
+				416243D22BC28327005AD863 /* NSObject+Zombie.h */,
+				416243D32BC28327005AD863 /* NSObject+Zombie.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -251,7 +251,7 @@
 			files = (
 				411542DE2BABDFBB00823E4B /* FULogKitUtil.h in Headers */,
 				411542A12BABD19000823E4B /* FULogInfo.h in Headers */,
-				4152E45C2BBCF60E0021899B /* FULogKitZombie.h in Headers */,
+				416243D42BC28327005AD863 /* NSObject+Zombie.h in Headers */,
 				411542E52BAC18B700823E4B /* FUNetWorkReachhabilityUtil.h in Headers */,
 				4152E4542BBA91BE0021899B /* FULogPool.h in Headers */,
 				4152E4502BBA521B0021899B /* FUServerLogUtil.h in Headers */,
@@ -471,8 +471,8 @@
 				411542DF2BABDFBB00823E4B /* FULogKitUtil.m in Sources */,
 				4152E4592BBBE4B70021899B /* FUExceptionUtil.m in Sources */,
 				411542A22BABD19000823E4B /* FULogInfo.m in Sources */,
-				4152E45D2BBCF60E0021899B /* FULogKitZombie.m in Sources */,
 				411542E62BAC18B700823E4B /* FUNetWorkReachhabilityUtil.m in Sources */,
+				416243D52BC28327005AD863 /* NSObject+Zombie.m in Sources */,
 				411542EA2BAC394300823E4B /* FUMMapUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,6 +665,7 @@
 		411542962BABCD4100823E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -696,6 +697,7 @@
 		411542972BABCD4100823E4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -730,6 +732,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35A6KD62ZJ;
@@ -759,6 +762,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35A6KD62ZJ;
